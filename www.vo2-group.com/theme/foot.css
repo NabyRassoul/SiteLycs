@@ -1,0 +1,139 @@
+footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 640px) {
+  footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1280px) {
+  footer {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 140px;
+  }
+}
+footer .inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .inner .viewport {
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+footer span,
+footer a {
+  color: black;
+}
+footer .top,
+footer .bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .inner .viewport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .inner .viewport .social {
+  margin-bottom: 10px;
+}
+footer .inner .viewport .social .menu {
+  display: flex;
+  margin-top: 36px;
+}
+footer .inner .viewport .social .menu li span,
+footer .inner .viewport .social .menu li a {
+  font-size: 24px;
+  display: block;
+  margin: 20px 10px;
+}
+footer .inner .viewport .corpo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+}
+footer .inner .viewport .corpo .menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+footer .inner .viewport .corpo .menu li {
+  width: 50%;
+}
+footer .inner .viewport .corpo .menu li.first {
+  width: 100%;
+}
+footer .inner .viewport .corpo .menu li a {
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+}
+footer .logo {
+  position: static;
+}
+@media (min-width: 1024px) {
+  footer {
+    height: 220px;
+  }
+  footer .top,
+  footer .bottom {
+    height: 110px;
+  }
+  footer .logo {
+    position: absolute;
+    left: 0;
+  }
+  footer .inner .viewport {
+    position: relative;
+  }
+  footer .inner .viewport .social {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  footer .inner .viewport .social ul.menu {
+    margin-top: 0;
+  }
+  footer .inner .viewport .corpo {
+    border-top: 1px solid #ccc;
+    justify-content: flex-start;
+    padding-top: 20px;
+  }
+  footer .inner .viewport .corpo .menu {
+    padding: 0;
+  }
+  footer .inner .viewport .corpo .menu li.first,
+  footer .inner .viewport .corpo .menu li {
+    width: auto;
+    margin-right: 30px;
+  }
+  footer .inner .viewport .corpo .menu li.first a,
+  footer .inner .viewport .corpo .menu li.first span,
+  footer .inner .viewport .corpo .menu li a,
+  footer .inner .viewport .corpo .menu li span {
+    padding: 0;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=foot.css.map */

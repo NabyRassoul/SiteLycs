@@ -1,0 +1,292 @@
+#second {
+  color: #4e110e;
+}
+#second .map .marker .border {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#second .map .marker .center {
+  background-color: white;
+  color: white;
+}
+#second .map .marker .center:hover {
+  background-color: #4e110e;
+}
+#second .map .marker .border:hover {
+  background-color: white;
+}
+
+label.switch {
+  opacity: 0;
+}
+
+#page {
+  transition: background-color 0.2s ease-in-out;
+}
+#page section .inner {
+  transition: background-color 0.2s ease-in-out;
+}
+#page.first, #page.second, #page.video-1 {
+  background-color: #eb6156;
+}
+#page.fifth, #page.video-2 {
+  background-color: #f5c0dd;
+}
+#page.fifth #fifth, #page.video-2 #fifth {
+  color: #3e0e2d;
+}
+#page.fifth {
+  background-color: #f5c0dd;
+}
+#page.fifth #sixth .inner {
+  color: #3e0e2d;
+}
+#page.fifth #sixth .inner h1 {
+  color: #3e0e2d;
+}
+#page.fifth #sixth .inner a {
+  color: #3e0e2d;
+  border-color: #3e0e2d;
+}
+.bright #page.fifth #sixth .inner {
+  background-color: #f5c0dd;
+  color: #3e0e2d;
+}
+#page.sixth {
+  background-color: #232323;
+}
+#page.sixth #fifth .inner,
+#page.sixth #seventh .inner,
+#page.sixth #sixth .inner {
+  color: #393939;
+}
+#page.sixth #fifth .inner a,
+#page.sixth #seventh .inner a,
+#page.sixth #sixth .inner a {
+  color: #393939;
+  border-color: #393939;
+}
+.bright #page.sixth #fifth .inner,
+.bright #page.sixth #seventh .inner,
+.bright #page.sixth #sixth .inner {
+  color: #143140;
+}
+.bright #page.sixth #fifth .inner a,
+.bright #page.sixth #seventh .inner a,
+.bright #page.sixth #sixth .inner a {
+  color: #143140;
+  border-color: #143140;
+}
+#page.sixth label.switch {
+  opacity: 1;
+}
+#page.sixth footer span,
+#page.sixth footer a {
+  color: #393939;
+}
+#page.sixth footer .inner .viewport .corpo {
+  border: 1px solid #393939;
+}
+.bright #page.sixth {
+  background-color: #a8d9fa;
+}
+.bright #page.sixth footer span,
+.bright #page.sixth footer a {
+  color: #143140;
+}
+.bright #page.sixth footer .inner .viewport .corpo {
+  border: 1px solid #143140;
+}
+#page.seventh {
+  background-color: white;
+}
+#page.seventh #seventh .inner,
+#page.seventh #sixth .inner {
+  color: black;
+}
+#page.seventh #sixth .inner input:checked + .slider {
+  background-color: black;
+}
+#page.seventh #sixth .inner h1 {
+  color: black;
+}
+#page.seventh footer span,
+#page.seventh footer a {
+  color: black;
+}
+
+#third .about-slide {
+  color: #1a3e15;
+  background-color: #8be18a;
+}
+#third .about-slide.last-slide {
+  background-color: transparent;
+}
+
+#third > .inner {
+  background-color: transparent;
+}
+
+#fourth > .inner {
+  background-color: transparent;
+}
+#fourth > .inner h1 {
+  color: black;
+}
+
+a {
+  transition: color 0.2s ease-in-out;
+}
+
+body header .burger div {
+  transition: all 0.2s ease-in-out;
+  background-color: #d8e1ed;
+}
+body header .burger:active div {
+  transition: all 0.2s ease-in-out;
+}
+@media (min-width: 1024px) {
+  body header .burger:hover div {
+    transition: all 0.2s ease-in-out;
+  }
+}
+body header a {
+  transition: color 0.2s ease-in-out;
+  color: #d8e1ed;
+}
+body header a:active {
+  transition: color 0.2s ease-in-out;
+}
+@media (min-width: 1024px) {
+  body header a:hover {
+    transition: color 0.2s ease-in-out;
+  }
+}
+body header.second .nav .burger div {
+  background-color: #4e110e;
+}
+body header.second .nav a {
+  color: #4e110e;
+}
+body header.video-2 .nav .burger div, body header.video-1 .nav .burger div {
+  background-color: white;
+}
+body header.video-2 .nav a, body header.video-1 .nav a {
+  color: white;
+}
+body header.third .nav .burger div {
+  background-color: #1a3e15;
+}
+body header.third .nav a {
+  color: #1a3e15;
+}
+body header.third.last-slide .nav .burger div {
+  background-color: black;
+}
+body header.third.last-slide .nav a {
+  color: black;
+}
+body header.fourth .nav .burger div {
+  background-color: black;
+}
+body header.fourth .nav a {
+  color: black;
+}
+body header.fifth .nav .burger div {
+  background-color: #3e0e2d;
+}
+body header.fifth .nav a {
+  color: #3e0e2d;
+}
+body header.sixth .nav .burger div {
+  background-color: #393939;
+}
+body header.sixth .nav a {
+  color: #393939;
+}
+body header.seventh .nav .burger div {
+  background-color: black;
+}
+body header.seventh .nav a {
+  color: black;
+}
+body header.second .burger:active div, body header.third .burger:active div, body header.fifth .burger:active div, body header.sixth .burger:active div {
+  background-color: white;
+}
+@media (min-width: 1024px) {
+  body header.second .burger:hover div, body header.third .burger:hover div, body header.fifth .burger:hover div, body header.sixth .burger:hover div {
+    background-color: white;
+  }
+}
+body header.second a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
+  color: white;
+}
+@media (min-width: 1024px) {
+  body header.second a:hover, body header.third a:hover, body header.fifth a:hover, body header.sixth a:hover {
+    color: white;
+  }
+}
+body header.fourth .burger:active div, body header.seventh .burger:active div {
+  background-color: #aaa;
+}
+@media (min-width: 1024px) {
+  body header.fourth .burger:hover div, body header.seventh .burger:hover div {
+    background-color: #aaa;
+  }
+}
+body header.fourth a:active, body header.seventh a:active {
+  color: #aaa;
+}
+@media (min-width: 1024px) {
+  body header.fourth a:hover, body header.seventh a:hover {
+    color: #aaa;
+  }
+}
+body.part-1 header .burger div {
+  background-color: #d8e1ed;
+}
+body.part-1 header a {
+  color: #d8e1ed;
+}
+body.part-2 header .burger div {
+  background-color: #c7f1f6;
+}
+body.part-2 header a {
+  color: #c7f1f6;
+}
+body.part-3 header .burger div {
+  background-color: #c7f1f6;
+}
+body.part-3 header a {
+  color: #c7f1f6;
+}
+body.part-4 header .burger div {
+  background-color: #4ba4b8;
+}
+body.part-4 header a {
+  color: #4ba4b8;
+}
+body .nav .nav-container.mobile a {
+  color: white;
+}
+@media (max-width: 1024px) {
+  body.nav-active header .icon-Logo:before {
+    color: white !important;
+  }
+}
+@media (max-width: 1024px) {
+  body.nav-active div.burger div {
+    background-color: white !important;
+  }
+}
+body.bright header.sixth .nav .burger div {
+  background-color: #143140;
+}
+body.bright header.sixth .nav a {
+  color: #143140;
+}
+body.legal header .nav .burger div, body.legal-active header .nav .burger div, body.confidentiality-active header .nav .burger div {
+  background-color: black;
+}
+body.legal header .nav a, body.legal-active header .nav a, body.confidentiality-active header .nav a {
+  color: black;
+}/*# sourceMappingURL=colors.css.map */

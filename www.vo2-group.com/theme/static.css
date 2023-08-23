@@ -1,0 +1,76 @@
+.static h1,
+.static h2,
+.static h3,
+.static h4 {
+  text-transform: none;
+}
+.static h1 {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  margin: 40px 0;
+}
+@media (min-width: 640px) {
+  .static h1 {
+    font-size: 32px;
+    line-height: 42px;
+    margin: 60px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .static h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 100px 0;
+  }
+}
+@media (min-width: 1280px) {
+  .static h1 {
+    font-size: 48px;
+    line-height: 68px;
+    margin-bottom: 140px 0;
+  }
+}
+.static h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Inter";
+  text-transform: uppercase;
+  margin: 0px 0 12px;
+  padding-top: 100px;
+}
+@media (min-width: 1024px) {
+  .static h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+.static h3 {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 100px 0 12px;
+}
+@media (min-width: 1024px) {
+  .static h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+.static h4 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: bold;
+  margin: 30px 0 12px;
+}
+@media (min-width: 1024px) {
+  .static h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.static a {
+  color: black;
+}
+.static a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=static.css.map */

@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Light.eot");
+  src: url("fonts/Inter-Lightd41d.eot?#iefix") format("embedded-opentype"), url("fonts/Inter-Light.woff2") format("woff2"), url("fonts/Inter-Light.woff") format("woff"), url("fonts/Inter-Light.ttf") format("truetype"), url("fonts/Inter-Light.svg#Inter-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-SemiBold.eot");
+  src: url("fonts/Inter-SemiBoldd41d.eot?#iefix") format("embedded-opentype"), url("fonts/Inter-SemiBold.woff2") format("woff2"), url("fonts/Inter-SemiBold.woff") format("woff"), url("fonts/Inter-SemiBold.ttf") format("truetype"), url("fonts/Inter-SemiBold.svg#Inter-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("fonts/Jost-Bold.eot");
+  src: url("fonts/Jost-Boldd41d.eot?#iefix") format("embedded-opentype"), url("fonts/Jost-Bold.woff2") format("woff2"), url("fonts/Jost-Bold.woff") format("woff"), url("fonts/Jost-Bold.ttf") format("truetype"), url("fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon7dc2.eot?7e3w51");
+  src: url("fonts/icomoon7dc2.eot?7e3w51#iefix") format("embedded-opentype"), url("fonts/icomoon7dc2.ttf?7e3w51") format("truetype"), url("fonts/icomoon7dc2.woff?7e3w51") format("woff"), url("fonts/icomoon7dc2.svg?7e3w51#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1:before {
+  content: "\e90b";
+  color: #81c780;
+}
+
+.icon-2:before {
+  content: "\e90c";
+  color: #81c780;
+}
+
+.icon-4:before {
+  content: "\e90e";
+  color: #81c780;
+}
+
+.icon-5:before {
+  content: "\e90f";
+  color: #81c780;
+}
+
+.icon-6:before {
+  content: "\e910";
+  color: #81c780;
+}
+
+.icon-3:before {
+  content: "\e90d";
+  color: #81c780;
+}
+
+.icon-7:before {
+  content: "\e911";
+  color: #81c780;
+}
+
+.icon-arrow:before {
+  content: "\e901";
+}
+
+.icon-Shanghai:before {
+  content: "\e900";
+  color: #4e110e;
+}
+
+.icon-Paris-Lille:before {
+  content: "\e906";
+  color: #4e110e;
+}
+
+.icon-New-york:before {
+  content: "\e907";
+  color: #4e110e;
+}
+
+.icon-Montreal:before {
+  content: "\e908";
+  color: #4e110e;
+}
+
+.icon-Brussels:before {
+  content: "\e909";
+  color: #4e110e;
+}
+
+.icon-Casablanca:before {
+  content: "\e90a";
+  color: #4e110e;
+}
+
+.icon-Jerusalem:before {
+  content: "\e912";
+  color: #4e110e;
+}
+
+.icon-Logo:before {
+  content: "L";
+}
+
+.icon-insta:before {
+  content: "\e902";
+}
+
+.icon-twitter:before {
+  content: "\e903";
+}
+
+.icon-linkedi:before {
+  content: "\e904";
+}
+
+.icon-youtube:before {
+  content: "\e905";
+}
+
+body {
+  font-family: "inter";
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost";
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+p,
+a {
+  font-size: 16px;
+  line-height: 1.6;
+  width: 100%;
+}
+@media (min-width: 1024px) {
+  p,
+  a {
+    font-size: 18px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+@media (min-width: 414px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 640px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 120px;
+  }
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 1.25;
+}
+@media (min-width: 640px) {
+  h2 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 80px;
+  }
+}
+@media (min-width: 1440px) {
+  h2 {
+    font-size: 100px;
+  }
+}
+
+h3 {
+  font-size: 21px;
+  line-height: 1.5;
+}
+@media (min-width: 414px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 640px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 36px;
+  }
+}
+@media (min-width: 1440px) {
+  h3 {
+    font-size: 48px;
+  }
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 640px) {
+  h4 {
+    font-size: 21px;
+  }
+}
+@media (min-width: 1024px) {
+  h4 {
+    font-size: 23px;
+  }
+}/*# sourceMappingURL=fonts.css.map */
