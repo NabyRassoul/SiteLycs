@@ -195,8 +195,8 @@ section#second .viewport {
   /* width: 1250px !important; */
 } 
 section#first h5{
-  color: rgb(150, 150, 141);
-  font-size: 1px;
+  color: white;
+  font-size: 14px;
 }
 section#second .metrics {
   display: flex;
@@ -301,7 +301,7 @@ section#second .map:before {
 }
 /* MON CSS*/
 .dsp3{
-  margin-top: -110px;
+  margin-top: -20px;
 }
 section#second .map .marker {
   width: 0;
@@ -615,7 +615,7 @@ section#third .swiper-slide-active .inner .viewport {
   left: 0;
   right: 0;
   bottom: 0;
-} */
+}  */
 section#third .deco:before {
   font-size: 40vh;
   line-height: 100vh;

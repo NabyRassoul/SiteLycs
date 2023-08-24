@@ -5,6 +5,10 @@
 
 .cl, span{
   color: #CC1CBC !important;
+
+}
+.cx{
+  color: #65065C !important;
 }
 #second .map .marker .border {
   background-color: rgba(255, 255, 255, 0.5);
@@ -35,7 +39,10 @@ label.switch {
   background-color: #FFFFFF;
 }
 .bg{
-  background-color: rgb(255,255,204);
+  background-color: rgba(204, 28, 188, 0.59);
+}
+.txt{
+  color: white;
 }
 #page.fifth, #page.video-2 {
   background-color: #f5c0dd;
@@ -125,7 +132,7 @@ label.switch {
 
 #third .about-slide {
   color: #1a3e15;
-  background-color: #8be18a;
+  background-color: rgb(255,204,255);
 }
 #third .about-slide.last-slide {
   background-color: transparent;
@@ -182,6 +189,14 @@ body header.video-2 .nav .burger div, body header.video-1 .nav .burger div {
 body header.video-2 .nav a, body header.video-1 .nav a {
   color:#CC1CBC ;
 }
+body header.partie1  .nav a, body header.video-1 .nav a {
+  color:#CC1CBC ;
+}
+body header.partie2  .nav a, body header .nav a {
+  color:white ;
+}
+
+
 body header.third .nav .burger div {
   background-color: #1a3e15;
 }
@@ -221,12 +236,18 @@ body header.seventh .nav a {
 body header.second .burger:active div, body header.third .burger:active div, body header.fifth .burger:active div, body header.sixth .burger:active div {
   background-color: white;
 }
+body header.first .burger:active div, body header.third .burger:active div, body header.fifth .burger:active div, body header.sixth .burger:active div {
+  background-color: white;
+}
 @media (min-width: 1024px) {
   body header.second .burger:hover div, body header.third .burger:hover div, body header.fifth .burger:hover div, body header.sixth .burger:hover div {
     background-color: white;
   }
 }
 body header.second a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
+  color: #CC1CBC;
+}
+body header.first a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
   color: #CC1CBC;
 }
 @media (min-width: 1024px) {

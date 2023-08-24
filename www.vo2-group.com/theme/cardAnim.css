@@ -1,0 +1,101 @@
+/* body {
+    height: 100%;
+    background: #2A2E45;
+    color: #FFF;
+    font-family: "montserrat";
+  }*/
+  body:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+  }
+  .card-sliders {
+    overflow: hidden;
+   
+  }*/
+ 
+
+  .card-sliders .card-decks .card-deck.deck-active {
+    display: flex;
+  }
+wh{
+    display: flex;
+}
+  .card-sliders .card-deck .card {
+    font-size: 0.8rem;
+    border: 0;
+    border-radius: 1.25rem;
+    box-shadow: 0 10px 20px 2px #181A28;
+    color: #FFF;
+    height: 100px;
+    
+    overflow: hidden;
+  }
+  .wh {
+    font-size: 0.8rem;
+    border: 0;
+    border-radius: 1.25rem;
+    box-shadow: 0 10px 20px 2px #181A28;
+    color: #FFF;
+    height: 300px;
+    
+    overflow: hidden;
+  }
+  #bg1 {
+    background-color: #CC1CBC !important;
+  }
+  #bg2 {
+    background-color: black !important;
+  }
+  .card-sliders .card-decks .card-deck .card h1, .card-sliders .card-decks .card-deck .card h2, .card-sliders .card-decks .card-deck .card h3, .card-sliders .card-decks .card-deck .card h4, .card-sliders .card-decks .card-deck .card h5, .card-sliders .card-decks .card-deck .card h6 {
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 12px;
+    display:flexbox;
+  }
+  .wh{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 12px;
+    display:flexbox;
+  }
+  .card-sliders .card-decks .card-deck .card a {
+    color: #3BCEAC;
+  }
+  .card-sliders  .card-deck .card img {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wh {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .wh{
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .card-sliders .card-decks .card-deck .card .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  /* Custom animate.css delay */
+  .animated.delay-02s {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  .animated.delay-04s {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  } 
+
+  
