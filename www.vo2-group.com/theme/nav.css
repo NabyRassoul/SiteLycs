@@ -9,8 +9,14 @@ a {
   flex-direction: row;
   top: 30px;
   z-index: 1;
+  width: 220px;
   position: absolute;
   left: 20px;
+}
+.LOG{
+  width: 250px;
+  left: 100px;
+  padding-left: 100px;
 }
 .logo a.icon-Logo {
   display: block;
@@ -146,7 +152,7 @@ a {
   margin: 0 12px;
 }
 .nav .nav-container.mobile .corpo {
-  border-top: 1px solid #333;
+  border-top: 1px solid #000000;
   padding-top: 20px;
 }
 @media (min-width: 640px) {

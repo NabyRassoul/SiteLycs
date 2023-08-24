@@ -81,9 +81,19 @@ section .left {
 }
 section .left h3 {
   max-width: 800px;
+ 
 }
+section div .display{
+  display: flex;
+}
+
+section div div .dsp1{
+  display: flex 1;
+}
+
+
 section .left h3 span {
-  color: white;
+  color: #CC1CBC;
 }
 section .right {
   display: flex;
@@ -92,6 +102,7 @@ section .right {
   margin-bottom: 80px;
 }
 section .right p {
+  
   max-width: 420px;
 }
 
@@ -170,10 +181,22 @@ section#first .lottie lottie-player {
 
 section#second {
   z-index: 2;
+  
+}
+section#second .part div.inner {
+  width: 100%;
 }
 section#second .viewport {
   max-width: 1280px;
+ 
   margin: auto;
+}
+ .viewport {
+  /* width: 1250px !important; */
+} 
+section#first h5{
+  color: rgb(150, 150, 141);
+  font-size: 1px;
 }
 section#second .metrics {
   display: flex;
@@ -276,6 +299,10 @@ section#second .map:before {
   display: block;
   padding-top: 50.78125%;
 }
+/* MON CSS*/
+.dsp3{
+  margin-top: -110px;
+}
 section#second .map .marker {
   width: 0;
   height: 0;
@@ -360,14 +387,15 @@ section#second .map .marker-1 {
   left: 47.89%;
 }
 section#second .map .marker-2 {
-  top: 44.75%;
-  left: 80.55%;
+  top: 53.75%;
+  left: 42.55%;
+  
 }
 section#second .map .marker-3 {
   top: 42.8%;
   left: 45.63%;
 }
-section#second .map .marker-4 {
+/* section#second .map .marker-4 {
   top: 29.3%;
   left: 49.3%;
 }
@@ -382,7 +410,7 @@ section#second .map .marker-6 {
 section#second .map .marker-7 {
   top: 43.7%;
   left: 57.1%;
-}
+} */
 section#second .desktop.live .marker {
   animation: fadeIn 0.5s forwards;
 }
@@ -395,7 +423,7 @@ section#second .desktop.live .marker-2 {
 section#second .desktop.live .marker-3 {
   animation-delay: 1.4s;
 }
-section#second .desktop.live .marker-4 {
+/* section#second .desktop.live .marker-4 {
   animation-delay: 1.8s;
 }
 section#second .desktop.live .marker-5 {
@@ -406,7 +434,7 @@ section#second .desktop.live .marker-6 {
 }
 section#second .desktop.live .marker-7 {
   animation-delay: 3s;
-}
+} */
 
 section#video-1 {
   z-index: 2;
@@ -581,13 +609,13 @@ section#third .swiper-slide-active .inner .viewport {
   max-width: 960px;
   margin: auto;
 }
-section#third .deco {
+/* section#third .deco {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-}
+} */
 section#third .deco:before {
   font-size: 40vh;
   line-height: 100vh;
@@ -991,3 +1019,6 @@ section#seventh .infos .info a {
 .title-wrapper {
   transition: margin-top 0.5s ease;
 }/*# sourceMappingURL=section.css.map */
+.mt{
+  margin-top: 200px;
+}

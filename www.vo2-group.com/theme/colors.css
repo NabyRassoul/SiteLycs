@@ -1,12 +1,17 @@
 #second {
-  color: #4e110e;
+  color: #000000;
+  
+}
+
+.cl, span{
+  color: #CC1CBC !important;
 }
 #second .map .marker .border {
   background-color: rgba(255, 255, 255, 0.5);
 }
 #second .map .marker .center {
-  background-color: white;
-  color: white;
+  background-color: #CC1CBC;
+  color: #CC1CBC;
 }
 #second .map .marker .center:hover {
   background-color: #4e110e;
@@ -26,7 +31,11 @@ label.switch {
   transition: background-color 0.2s ease-in-out;
 }
 #page.first, #page.second, #page.video-1 {
-  background-color: #eb6156;
+  /* Lvante color*/
+  background-color: #FFFFFF;
+}
+.bg{
+  background-color: rgb(255,255,204);
 }
 #page.fifth, #page.video-2 {
   background-color: #f5c0dd;
@@ -165,13 +174,13 @@ body header.second .nav .burger div {
   background-color: #4e110e;
 }
 body header.second .nav a {
-  color: #4e110e;
+  color: #000000;
 }
 body header.video-2 .nav .burger div, body header.video-1 .nav .burger div {
   background-color: white;
 }
 body header.video-2 .nav a, body header.video-1 .nav a {
-  color: white;
+  color:#CC1CBC ;
 }
 body header.third .nav .burger div {
   background-color: #1a3e15;
@@ -218,11 +227,11 @@ body header.second .burger:active div, body header.third .burger:active div, bod
   }
 }
 body header.second a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
-  color: white;
+  color: #CC1CBC;
 }
 @media (min-width: 1024px) {
   body header.second a:hover, body header.third a:hover, body header.fifth a:hover, body header.sixth a:hover {
-    color: white;
+    color: #CC1CBC;
   }
 }
 body header.fourth .burger:active div, body header.seventh .burger:active div {
