@@ -936,7 +936,7 @@ section#seventh .infos .info h3 {
 section#seventh .infos .info a {
   display: block;
   text-align: center;
-  border-radius: 300px;
+  border-radius: 5px;
   padding: 12px 24px 12px 24px;
   border: 2px solid black;
   color: black;
