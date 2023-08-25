@@ -4,11 +4,17 @@
     color: #FFF;
     font-family: "montserrat";
   }*/
-  body:before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    
+  #cdr::before {
+    content: "NE VENDEZ PLUS DES PRODUIT OU DES SERVICE 💖 VENDEZ DES EXPERIENCE";
+   
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: -1px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #65065C;
+    font-family: "montserrat";
     position: absolute;
   }
   .card-sliders {
@@ -65,8 +71,8 @@ wh{
     color: #3BCEAC;
   }
   .card-sliders  .card-deck .card img {
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     top: 50%;
@@ -97,5 +103,12 @@ wh{
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
   } 
+  #cardSlide{
+    margin-top: -100px;
+    
+  }
+  #partie2{
+    box-shadow: 0 10px 20px 2px rgba(204, 28, 188, 0.59) ;
+  }
 
   

@@ -56,28 +56,28 @@
     <link rel="stylesheet" href="theme/static.css" />
     <link
       rel="stylesheet"
-      href="../cdn.jsdelivr.net/npm/swiper%409/swiper-bundle.min.css"
+      href="./cdn.jsdelivr.net/npm/swiper%409/swiper-bundle.min.css"
     />
     <link
       rel="stylesheet"
-      href="../unpkg.com/swiper%4010.2.0/swiper-bundle.min.css"
+      href="./unpkg.com/swiper%4010.2.0/swiper-bundle.min.css"
     />
 
-    <script src="../code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="./code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
-    <script src="../unpkg.com/swiper%4010.2.0/swiper-bundle.min.js"></script>
+    <script src="./unpkg.com/swiper%4010.2.0/swiper-bundle.min.js"></script>
 
-    <script src="../unpkg.com/%40lottiefiles/lottie-player%402.0.2/dist/lottie-player.js"></script>
+    <script src="./unpkg.com/%40lottiefiles/lottie-player%402.0.2/dist/lottie-player.js"></script>
     <script
-      src="../cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"
+      src="./cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"
       type="text/javascript"
     ></script>
 
-    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-    <script src="../cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="./cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="./cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="./cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="./cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
 
     <script src="theme/js/anim.js"></script>
     <script src="theme/js/script.js"></script>
@@ -99,7 +99,7 @@
 
   <body class="front">
     <header>
-      <div class="nav mobile">
+      <div class="nav mobile navbar">
         <div class="">
           <img src="./theme/img/favicon.png" alt="logo" class="logo" />
         </div>
@@ -174,7 +174,7 @@
         </div>
       </div>
 
-      <div class="nav desktop">
+      <div class="nav desktop navbar">
         <div class="">
           <img src="./theme/img/favicon.png" alt="logo" class="logo" />
         </div>
@@ -198,7 +198,7 @@
 
     <div id="page">
       <section id="first" class="">
-        <div class="mt">
+        <div class="tab1">
         <div class="viewport">
             <div class="left anim">
                 <!-- <h3 class="">
@@ -208,7 +208,7 @@
                       CENTRE DU <span class="cl">BUSINESS.</span><br />
                   </h3> -->
                   <section id="partie1">
-                <div class="display ms-auto row " >
+                <div class="display mx-auto row " >
                   <div class="dsp1 col-lg-6 col-md-12 col-sm-12 ps-lg-5 ps-xl-5 pt-4">
                     <h3 class="desktop">
                      
@@ -239,7 +239,7 @@
                         alt="accuil"
                       />
                     </div>
-                    <div class="desktop ms-4">
+                    <div class="desktop ms-4 dsp2">
                       <img
                         class="image"
                         src="./theme/img/Group 2.png"
@@ -254,12 +254,12 @@
                   <img class="image" src="./theme/img/Group01.png" alt="barre" />
                 </div>
                 <!--pARTIE II QUI SOMMES-NOUS-->
-                
-                <div class="row " id="partie2">
+                <div class="conatiner-fluid"> 
+                <div class="row " id="partie">
                   <div class="bg">
                     <div class="viewport w-100">
-                      <div class="left anim container">
-                        <div class="display row ms-auto">
+                      <div class="left anim ">
+                        <div class="display row mx-auto ">
                           <div class="dsp1 col-lg-6 col-md-12 col-sm-12 mt-4">
                             <h3 class="desktop mt-4 txt">
                              <span class="cx"> LYCS </span>  EST UNE <br />
@@ -290,14 +290,14 @@
                                  
                                </h3>
                           </div>
-                          <div class="dsp3 col-lg-6 col-md-12 col-sm-12 ps-4">
+                          <div class="dsp3 col-lg-6 col-md-12 col-sm-12 ">
                             <div class="mobile ms-4">
                               <img class="" src="./theme/img/Group 3.png" alt="accuil" />
                             </div>
-                            <div class="desktop ms-4">
+                            <div class="desktop ms-4 w-100">
                               <img
                                 class="image"
-                                src="./theme/img/"
+                                src="./theme/img/Group 3.png"
                                 alt="accuil"
                               />
                             </div>
@@ -318,7 +318,7 @@
                 </div>
              
                 <!--PARTIE III QUI SOMMES-NOUS-->
-                <div class="row">
+                <div class="row" id="partie3">
                   <div class="bg">
                     <div class="viewport w-100">
                       <div class="left anim container">
@@ -379,15 +379,16 @@
                     </div>
                   </div>
                 </div>
+              </div>
               </section>
               </div>
   
         </div>
         </div>
         </section>
-        <section>
+        <section id="cardSlide">
           <div class="card-sliders ">
-            <div class="container ">
+            <div class="container  " id="cdr">
               <div class="row align-items-center">
                 <div class="col-md">
                   
@@ -397,7 +398,7 @@
                       <div class="card-decks  ">
                         <div class="card-deck deck-active">
                           <div class="card col-lg-6">
-                            <img class="card-img" src="https://frontendfreecode.com/img/pexels-photo-1.jpeg" alt="Card image">
+                            <img class="card-img" src="./theme/img/Image1.png" alt="Card image">
                             <div class="card-img-overlay">
                               <h5 class="card-title">An awesome title</h5>
                               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
@@ -405,7 +406,7 @@
                             </div>
                           </div>
                           <div class="card col-lg-6">
-                            <img class="card-img" src="./theme/img/Group 2.png" alt="Card image">
+                            <img class="card-img " src="./theme/img/img-2.png" alt="Card image">
                             <div class="card-img-overlay">
                               <h5 class="card-title">An awesome title</h5>
                               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
@@ -422,7 +423,7 @@
                       <div class="card-decks  ">
                         <div class="card-deck deck-active">
                           <div class="card col-lg-6">
-                            <img class="card-img" src="https://frontendfreecode.com/img/pexels-photo-1.jpeg" alt="Card image">
+                            <img class="card-img" src="./theme/img/Image2.png" alt="Card image">
                             <div class="card-img-overlay">
                               <h5 class="card-title">An awesome title</h5>
                               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
@@ -430,7 +431,59 @@
                             </div>
                           </div>
                           <div class="card col-lg-6">
-                            <img class="card-img" src="./theme/img/Group 2.png" alt="Card image">
+                            <img class="card-img" src="./theme/img/bl2.jpg" alt="Card image">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">An awesome title</h5>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
+                              
+                            </div>
+                          </div>
+                          
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <!--Row2-->
+                  <div class="row mt-5">
+                    <div class="col-lg-6">
+                      <div class="card-decks  ">
+                        <div class="card-deck deck-active">
+                          <div class="card col-lg-6">
+                            <img class="card-img" src="./theme/img/box-bg2.png" alt="Card image">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">An awesome title</h5>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
+                              
+                            </div>
+                          </div>
+                          <div class="card col-lg-6">
+                            <img class="card-img" src="./theme/img/abouts_1.png" alt="Card image">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">An awesome title</h5>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
+                              
+                            </div>
+                          </div>
+                          
+                        </div>
+                       
+                      </div>
+                    </div>
+                    <!--SECONDE PARTIE-->
+                    <div class="col-lg-6">
+                      <div class="card-decks  ">
+                        <div class="card-deck deck-active">
+                          <div class="card col-lg-6">
+                            <img class="card-img" src="./theme/img/abouts_2.png" alt="Card image">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title">An awesome title</h5>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
+                              
+                            </div>
+                          </div>
+                          <div class="card col-lg-6">
+                            <img class="card-img" src="./theme/img/Image3.png" alt="Card image">
                             <div class="card-img-overlay">
                               <h5 class="card-title">An awesome title</h5>
                               <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, maiores.</p>
@@ -502,7 +555,7 @@
          
         </div>
       </section>
-      <section id="video-1">
+      <!-- <section id="video-1">
         <div class="video-container fixed">
           <video
             autoplay
@@ -520,140 +573,101 @@
             Your browser does not support the video tag.
           </video>
         </div>
-      </section>
+      </section> -->
 
       <section id="third" class="green  fixed">
         <div class="about-container ">
           <div class="about-us ">
             <div class="about-wrapper">
+              
               <div class="about-slide first-slide">
+                
+                  <img src="./theme/img/Salesforce.png" class="slasImg mt-4">
+                
                 <div class="inner  odd">
                   <div class="viewport ">
-                    <h1>
-                      STRATEGY &<br />INNOVATION
+                    <h1 class="textSlide">
+                        NOTRE PROPOSITION<br />DE VALEUR
 
                       <div class="tags">
-                        <span class="tag">Digital transformation strategy</span>
-                        <span class="tag">Management consulting</span>
-                        <span class="tag">IT System Strategy</span>
-                        <span class="tag">Digital Business Model</span>
+                        <span class="tag">Expertise Relation & Experience Client</span>
+                        <span class="tag">Conseil & Strategie De Transfromation</span>
+                        
                       </div>
                     </h1>
                     <p>
-                      We empower innovative business leaders and teams to
-                      transcend the boundaries of their industry and
-                      organizations, from the study phase and identification of
-                      opportunities to the design of new services and scalable
-                      organizations with tech and digital at heart.
+                     
                     </p>
                   </div>
                 </div>
-                <div class="deco icon-1"></div>
+                <div class="deco icon-3"></div>
               </div>
-              <div class="about-slide">
-                <div class="inner even">
-                  <div class="viewport">
-                    <h1>
-                      Brand<br />EXPERIENCE
-
-                      <div class="tags">
-                        <span class="tag">360 Brand activations</span>
-                        <span class="tag">Ux Excellence</span>
-                        <span class="tag">Immersive Studio (Web3, IA)</span>
-                        <span class="tag">Brand & Store app</span>
-                        <span class="tag">Performance & SEO</span>
-                      </div>
-                    </h1>
-                    <p>
-                      We craft performance-driven, immersive and emotional brand
-                      strategies & digital experiences for BTB / BTC leading
-                      international companies and luxury houses. We unify global
-                      and local prestige and heritage with integrated teams of
-                      creative, and tech talents.
-                    </p>
-                  </div>
-                </div>
-                <div class="deco icon-2"></div>
-              </div>
-              <div class="about-slide">
+              <div class="about-slide ">
+                <img src="./theme/img/Salesforce.png" class="slasImg mt-4">
                 <div class="inner odd">
                   <div class="viewport">
-                    <h1>
-                      EXPERIENCE<br />DESIGN
+                    <h1 class="textSlide">
+                      EXPERTISE RELATION &<br />EXPERIENCE CLIENT
+
                       <div class="tags">
-                        <span class="tag">Omnichannel strategy</span>
-                        <span class="tag">Client engagement strategy</span>
-                        <span class="tag">Unified commerce</span>
-                        <span class="tag"
-                          >Ecom & social commerce Platforms</span
-                        >
+                        <span class="tag">Marketing automation</span>
+                        <span class="tag">Salesforce Marketing Cloud</span>
+                        
                       </div>
                     </h1>
                     <p>
-                      We design omnichannel customer journeys with end-to-end
-                      services serving global and unified commerce strategies.
-                      We are fully integrated with the best of breed global tech
-                      partners, ranking from our strategic CRM & Data partner
-                      Salesforce to the best local tech, social and e-commerce
-                      platforms.
+                     
                     </p>
                   </div>
                 </div>
                 <div class="deco icon-3"></div>
               </div>
               <div class="about-slide">
+                <!-- <img src="./theme/img/lamp.png" class="slasImg mt-4"> -->
                 <div class="inner even">
                   <div class="viewport">
-                    <h1>
-                      TECHNOLOGY<br />CONSULTING
-
+                    <h1 class="textSlide">
+                      CONSEIL & <br />STRATEGIE DE<br />TRANSFORMATION
                       <div class="tags">
-                        <span class="tag">Cloud</span>
-                        <span class="tag">Data</span>
-                        <span class="tag">Mobile</span>
-                        <span class="tag">IT Infrastructure</span>
-                        <span class="tag">AI & Automation</span>
-                        <span class="tag">Emerging Tech</span>
+                        <span class="tag">Core Cloud</span>
+                        <span class="tag">Pricing</span>
+                        <span class="tag">Omnicanal</span>
+                       
                       </div>
                     </h1>
                     <p>
-                      We design high-quality, scalable architectures, products,
-                      and services, seamlessly integrating the most advanced
-                      technological solutions. We conduct digital and data
-                      projects for various industries with highly skilled
-                      consultants: from fullstack developers, devops, PO or data
-                      scientists teams to global factories of web and mobile,
-                      UX, Data and AI experts.
+                     
+                    </p>
+                  </div>
+                </div>
+                <div class="deco icon-3"></div>
+              </div>
+              <div class="about-slide">
+                <!-- <img src="./theme/img/lamp.png" class="slasImg mt-4"> -->
+                <div class="inner even">
+                  <div class="viewport">
+                    <h1 class="textSlide">
+                      STRONG TECHNICAL FOUNDATION<br />CONSULTING
+
+                      <div class="tags">
+                        <span class="tag">Back & Front end development</span>
+                        <span class="tag">Release management/Devops</span>
+                        <span class="tag">Mobile</span>
+                        <span class="tag">ETL</span>
+                        <span class="tag">API management</span>
+                        <span class="tag">MULESOFT</span>
+                      </div>
+                    </h1>
+                    <p>
+                      
                     </p>
                   </div>
                 </div>
                 <div class="deco icon-5"></div>
               </div>
-              <div class="about-slide corner">
-                <div class="inner odd">
-                  <div class="viewport">
-                    <h1>
-                      Success <br />Management
-                      <div class="tags">
-                        <span class="tag">Program Management</span>
-                        <span class="tag">International rollout</span>
-                        <span class="tag">Global Strategy</span>
-                        <span class="tag">Change Management</span>
-                      </div>
-                    </h1>
-                    <p>
-                      We lead international transformation programs and global
-                      integration projects with expert governance and advisory
-                      teams, supported by a robust operating model that embraces
-                      a culture of success and the best of breed change
-                      management methodologies.
-                    </p>
-                  </div>
-                </div>
-                <div class="deco icon-6"></div>
-              </div>
+              
 
-              <div class="about-slide last-slide">
+              <div class=" last-slide">
                 <div class="inner last"></div>
               </div>
             </div>
@@ -706,64 +720,54 @@
       <section id="fifth" class="pink">
         <div class="title-wrapper">
           <h1 id="h1">
-            we create<br />technologies<br />
-            for emerging <br />trends
+            six point pour une <br />relation solide et<br />
+            durable avec le Client <br />....
           </h1>
         </div>
 
-        <div class="inner">
+        <div class="inner loveClient">
           <div class="viewport">
-            <h1 class="anim">Loved Clients</h1>
+            <h1 class="anim">WE LOVE OUR CUSTOMERS</h1>
             <div class="brand-wrapper anim">
               <div class="swiper brands-1">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <span class="brand">BNP</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <!-- <span class="brand"><img src="./theme/img/Image1.png"></span> -->
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Tag Heuer</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Yves Rocher</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Pernod Ricard</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">L’Oréal</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Galeries Lafayette</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Moët Hennessy</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">BNP</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">BOUYGUES</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Tag Heuer</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Yves Rocher</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Pernod Ricard</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">L’Oréal</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Galeries Lafayette</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Moët Hennessy</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                 </div>
               </div>
@@ -771,71 +775,42 @@
               <div class="swiper brands-2">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <span class="brand">+Canal</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Société Générale</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Louboutin</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">New Balance</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">SMCP</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Bel for all for good</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Factory 54</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Chanel</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Cartier</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Louis Vuitton</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Dior</span>
-                  </div>
-
-                  <div class="swiper-slide">
-                    <span class="brand">+Canal</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Société Générale</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Louboutin</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">New Balance</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">SMCP</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Bel for all for good</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Factory 54</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Chanel</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Cartier</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Louis Vuitton</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Dior</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                 </div>
               </div>
@@ -843,70 +818,42 @@
               <div class="swiper brands-3">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <span class="brand">Balmain</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Renault</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Natixis</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Loewe</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Van Cleef & Arpels</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Givenchy</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Tag Heuer</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Zenith</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Chaumet</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Rimowa</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Berluti</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Balmain</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Renault</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Natixis</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Loewe</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Van Cleef & Arpels</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Givenchy</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Tag Heuer</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Zenith</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Chaumet</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Rimowa</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Berluti</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                 </div>
               </div>
@@ -914,70 +861,42 @@
               <div class="swiper brands-4">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <span class="brand">Orange Bank</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Alstom</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Accor</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Moynat</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Guerlain</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Christian Dior Parfums</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"> </span>
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <span class="brand"><img src="./theme/files/Corsaire.png"/> </span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Messika</span>
+                    <span class="brand"><img src="./theme/files/JADelmas.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Fred</span>
+                    <span class="brand"><img src="./theme/files/Suez.png"/></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">Boucheron</span>
+                    <span class="brand"><img src="./theme/files/Verspeirien.png"></span>
                   </div>
                   <div class="swiper-slide">
-                    <span class="brand">.Tiffany &amp; Co</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Clarins</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Orange Bank</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Alstom</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Accor</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Moynat</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Guerlain</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Christian Dior Parfums</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Messika</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Fred</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Boucheron</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">.Tiffany &amp; Co</span>
-                  </div>
-                  <div class="swiper-slide">
-                    <span class="brand">Clarins</span>
+                    <span class="brand"><img src="./theme/files/Fitt.png"/></span>
                   </div>
                 </div>
               </div>
@@ -986,14 +905,14 @@
         </div>
       </section>
 
-      <section id="video-2" class="video">
+      <!-- <section id="video-2" class="video">
         <div class="video-container fixed">
           <video autoplay muted loop class="video-content">
             <source src="theme/files/skyloop.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-      </section>
+      </section> -->
 
       <section id="sixth" class="grey">
         <div class="inner">
@@ -1218,6 +1137,23 @@
         }, timeout)
       }
       </script>
+      <script>
+        $(document).ready(function() {
+          var lastScrollTop = 0;
+          $(window).scroll(function() {
+            var scrollTop = $(this).scrollTop();
+            if (scrollTop > lastScrollTop) {
+              // Faire disparaître la navbar lorsque l'utilisateur fait défiler vers le bas
+              $(".navbar").addClass("d-none");
+            } else {
+              // Afficher la navbar lorsque l'utilisateur fait défiler vers le haut
+              $(".navbar").removeClass("d-none");
+            }
+            lastScrollTop = scrollTop;
+          });
+        });
+      </script>
+    </head>
   </body>
 
   <!-- Mirrored from www.vo2-group.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Aug 2023 15:29:10 GMT -->

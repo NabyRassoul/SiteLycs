@@ -133,9 +133,21 @@ label.switch {
 #third .about-slide {
   color: #1a3e15;
   background-color: rgb(255,204,255);
+ 
+ 
+}
+.about-slide{
+  background-image: url('./img/backg1.png');
+
+}
+.textSlide{
+  font-size: 80px !important;
+  color: #65065C !important
+
 }
 #third .about-slide.last-slide {
   background-color: transparent;
+  
 }
 
 #third > .inner {
@@ -248,7 +260,7 @@ body header.second a:active, body header.third a:active, body header.fifth a:act
   color: #CC1CBC;
 }
 body header.first a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
-  color: #CC1CBC;
+  color: #000000;
 }
 @media (min-width: 1024px) {
   body header.second a:hover, body header.third a:hover, body header.fifth a:hover, body header.sixth a:hover {
@@ -320,3 +332,11 @@ body.legal header .nav .burger div, body.legal-active header .nav .burger div, b
 body.legal header .nav a, body.legal-active header .nav a, body.confidentiality-active header .nav a {
   color: black;
 }/*# sourceMappingURL=colors.css.map */
+.loveClient{
+  background-image: url('./img/backg2.png');
+}
+.slasImg {
+  width: 200px;
+  padding-left: 40px;
+  padding-bottom: -200px;
+}
