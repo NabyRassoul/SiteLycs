@@ -849,36 +849,48 @@ section#sixth .switch .slider {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #393939;
+  /*background-color: #393939;*/
+  background-color: #CC1CBC;
   transition: 0.2s ease-in-out;
   text-align: center;
   line-height: 31.25vw;
   color: white;
   font-size: 3vw;
-  border-radius: 10000px;
+  /*border-radius: 10000px;*/
+  border-radius: 25px;
+  margin-top: 3rem;
 }
 section#sixth .switch .slider:before {
   position: absolute;
-  content: "Bright Side";
+  content: "PRODUIT / SERVICE";
   font-family: "Jost";
   text-transform: uppercase;
-  font-size: 6.3vw;
+  font-size: 4.3vw;
   line-height: 1;
-  height: 29.1666vw;
-  width: 29.1666vw;
-  left: 1.0417vw;
-  bottom: 1.0417vw;
-  background-color: #232323;
-  color: #393939;
+  /*height: 29.1666vw;*/  
+  height: 100%;
+  /*width: 29.1666vw;*/
+  width: 50%;
+  /*left: 1.0417vw;*/
+  left: -1px;
+  top: 0;
+  /*bottom: 1.0417vw;*/
+  /*background-color: #232323;
+  color: #393939;*/
+  background-color: black;
+  color: white;
   transition: 0.2s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  
+  border-radius: 25px;
 }
 section#sixth .switch input:checked + .slider:before {
-  content: "Dark Side";
-  transform: translate3d(31.25vw, 0, 0);
+  content: "Experience Client";
+  transform: translate3d(33.50vw, 0, 0);
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 section#sixth .switch .slider.round {
   border-radius: 31.25vw;
@@ -894,11 +906,13 @@ section#sixth .switch .slider.round:before {
   color: white;
 }
 .bright section#sixth .slider:before {
-  background-color: #a8d9fa;
+  /*background-color: #a8d9fa;*/
+  background-color: #CC1CBC;
   color: #143140;
 }
 .bright section#sixth input:checked + .slider {
-  background-color: #143140;
+  /*background-color: #143140;*/
+  background-color: white;
 }
 
 section#seventh {

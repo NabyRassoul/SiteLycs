@@ -68,7 +68,8 @@ label.switch {
   color: #3e0e2d;
 }
 #page.sixth {
-  background-color: #232323;
+  /*background-color: #232323;*/
+  background-color: white;
 }
 #page.sixth #fifth .inner,
 #page.sixth #seventh .inner,
@@ -103,7 +104,8 @@ label.switch {
   border: 1px solid #393939;
 }
 .bright #page.sixth {
-  background-color: #a8d9fa;
+  /*background-color: #a8d9fa;*/
+  background-color: pink;
 }
 .bright #page.sixth footer span,
 .bright #page.sixth footer a {
