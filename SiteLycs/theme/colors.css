@@ -103,7 +103,7 @@ label.switch {
   border: 1px solid #393939;
 }
 .bright #page.sixth {
-  background-color: #a8d9fa;
+  background-color: b;
 }
 .bright #page.sixth footer span,
 .bright #page.sixth footer a {
@@ -257,14 +257,14 @@ body header.first .burger:active div, body header.third .burger:active div, body
   }
 }
 body header.second a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
-  color: #CC1CBC;
+  color: #000000;
 }
 body header.first a:active, body header.third a:active, body header.fifth a:active, body header.sixth a:active {
   color: #000000;
 }
 @media (min-width: 1024px) {
   body header.second a:hover, body header.third a:hover, body header.fifth a:hover, body header.sixth a:hover {
-    color: #CC1CBC;
+    color: #000000;
   }
 }
 body header.fourth .burger:active div, body header.seventh .burger:active div {
@@ -276,43 +276,43 @@ body header.fourth .burger:active div, body header.seventh .burger:active div {
   }
 }
 body header.fourth a:active, body header.seventh a:active {
-  color: #aaa;
+  color: #000000;
 }
 @media (min-width: 1024px) {
   body header.fourth a:hover, body header.seventh a:hover {
-    color: #aaa;
+    color: #000000;
   }
 }
 body.part-1 header .burger div {
   background-color: #d8e1ed;
 }
 body.part-1 header a {
-  color: #d8e1ed;
+  color: #000000;
 }
 body.part-2 header .burger div {
   background-color: #c7f1f6;
 }
 body.part-2 header a {
-  color: #c7f1f6;
+  color: #000000;
 }
 body.part-3 header .burger div {
   background-color: #c7f1f6;
 }
 body.part-3 header a {
-  color: #c7f1f6;
+  color: #000000;
 }
 body.part-4 header .burger div {
   background-color: #4ba4b8;
 }
 body.part-4 header a {
-  color: #4ba4b8;
+  color: #000000;
 }
 body .nav .nav-container.mobile a {
-  color: white;
+  color: #000000;
 }
 @media (max-width: 1024px) {
   body.nav-active header .icon-Logo:before {
-    color: white !important;
+    color: #000000 !important;
   }
 }
 @media (max-width: 1024px) {
@@ -324,7 +324,7 @@ body.bright header.sixth .nav .burger div {
   background-color: #143140;
 }
 body.bright header.sixth .nav a {
-  color: #143140;
+  color: #000000;
 }
 body.legal header .nav .burger div, body.legal-active header .nav .burger div, body.confidentiality-active header .nav .burger div {
   background-color: black;

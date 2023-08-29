@@ -14,9 +14,9 @@ a {
   left: 20px;
 }
 .LOG{
-  width: 250px;
-  left: 100px;
-  padding-left: 100px;
+  width: 350px;
+margin-left: 150px;
+  padding-left: 25px;
 }
 .logo a.icon-Logo {
   display: block;

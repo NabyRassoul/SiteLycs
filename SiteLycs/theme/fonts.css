@@ -89,8 +89,9 @@
   color: #4e110e;
 }
 
-.icon-Paris-Lille:before {
-  content: "\e906";
+.icon-Paris:before {
+  content: "Paris";
+
   color: #4e110e;
 }
 
@@ -105,12 +106,12 @@
 }
 
 .icon-Dakar:before {
-  content: "\e909";
+  content: "Dakar";
   color: #4e110e;
 }
 
 .icon-Casablanca:before {
-  content: "\e90a";
+  content: "Casablanca";
   color: #4e110e;
 }
 
@@ -193,7 +194,7 @@ h1 {
 }
 @media (min-width: 640px) {
   h1 {
-    font-size: 80px;
+    font-size: 10px;
   }
 }
 @media (min-width: 1024px) {

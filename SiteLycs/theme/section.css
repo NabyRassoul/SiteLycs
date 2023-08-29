@@ -83,6 +83,15 @@ section .left h3 {
   max-width: 800px;
  
 }
+.h1Header{
+  font-size: 80px !important;
+  margin-left: 70px;
+}
+.h5Header{
+  font-size: 30px !important;
+ 
+
+}
 section div .display{
   display: flex;
 }
@@ -289,7 +298,7 @@ section#second h1.anim.live .title-2 {
   animation-delay: 1.5s;
 }
 section#second .map {
-  background-image: url("img/map.png");
+  background-image: url("img/map2.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -840,7 +849,7 @@ section#sixth .switch {
   position: relative;
   display: inline-block;
   width: 62.5vw;
-  height: 31.25vw;
+  height: 20.25vw;
 }
 section#sixth .switch input {
   opacity: 0;
@@ -854,45 +863,50 @@ section#sixth .switch .slider {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #393939;
+  background-color: #5e5c5c;
   transition: 0.2s ease-in-out;
   text-align: center;
   line-height: 31.25vw;
   color: white;
   font-size: 3vw;
-  border-radius: 10000px;
+  border-radius: 10px;
 }
 section#sixth .switch .slider:before {
   position: absolute;
-  content: "Bright Side";
+  content: "Produit/ Service";
   font-family: "Jost";
   text-transform: uppercase;
-  font-size: 6.3vw;
+  font-size: 4.3vw;
   line-height: 1;
-  height: 29.1666vw;
+  height: 19.1666vw;
   width: 29.1666vw;
   left: 1.0417vw;
-  bottom: 1.0417vw;
+  bottom: 0.5vw;
   background-color: #232323;
   color: #393939;
   transition: 0.2s ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius:  10px;
+ 
 }
 section#sixth .switch input:checked + .slider:before {
-  content: "Dark Side";
+  content: "Experience Client";
   transform: translate3d(31.25vw, 0, 0);
+  background-color: #CC1CBC;
+  color: #ffffff;
+  
+
 }
 section#sixth .switch .slider.round {
   border-radius: 31.25vw;
 }
 section#sixth .switch .slider.round:before {
-  border-radius: 50%;
+  border-radius: 10px;
 }
 .bright section#sixth h1 {
-  color: #143140;
+  color: white;
 }
 .bright section#sixth .slider {
   background-color: #143140;
@@ -903,7 +917,7 @@ section#sixth .switch .slider.round:before {
   color: #143140;
 }
 .bright section#sixth input:checked + .slider {
-  background-color: #143140;
+  background-color: #f5c0dd;
 }
 
 section#seventh {
@@ -941,7 +955,7 @@ section#seventh .infos .info h3 {
 section#seventh .infos .info a {
   display: block;
   text-align: center;
-  border-radius: 300px;
+  border-radius: 5px;
   padding: 12px 24px 12px 24px;
   border: 2px solid black;
   color: black;
@@ -1035,7 +1049,19 @@ section#seventh .infos .info a {
 #partie3{
   margin-top: -100px;
 }
+
 #partie{
   padding-bottom: 100px;
 
+}
+footer .textHeadeFooter{
+  font-size: 30px;
+  font-weight: bolde;
+
+}
+footer{
+  background-color: #000000;
+}
+.image{
+  width: 100%;
 }
