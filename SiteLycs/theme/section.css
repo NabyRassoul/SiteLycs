@@ -84,11 +84,11 @@ section .left h3 {
  
 }
 .h1Header{
-  font-size: 80px !important;
-  margin-left: 70px;
+  font-size: 60px !important;
+  margin-left: 30px;
 }
 .h5Header{
-  font-size: 30px !important;
+  font-size: 20px !important;
  
 
 }
@@ -461,6 +461,7 @@ section#third {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  
  
 }
 section#third > .inner {
@@ -476,11 +477,14 @@ section#third > .inner h1 {
   line-height: 64px;
   position: relative;
   text-align: center;
+  
+  
 }
 @media (min-width: 640px) {
   section#third > .inner h1 {
     font-size: 80px;
     line-height: 100px;
+    
   }
 }
 @media (min-width: 1024px) {
@@ -550,6 +554,9 @@ section#third .inner .viewport {
 }
 section#third .inner h1 {
   margin: 0;
+  color: #3e0e2d;
+ 
+  
 }
 section#third .inner .tags {
   text-align: left;
@@ -583,7 +590,7 @@ section#third .inner .tags span.tag {
 section#third .inner p {
   padding-left: 100px;
   white-space: initial;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 22px;
 }
 @media (min-width: 414px) {
@@ -595,7 +602,7 @@ section#third .inner p {
 @media (min-width: 768px) {
   section#third .inner p {
     padding-left: 200px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
   }
 }
@@ -1013,7 +1020,7 @@ section#seventh .infos .info a {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 0;
+  top: 200px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1061,7 +1068,12 @@ footer .textHeadeFooter{
 }
 footer{
   background-color: #000000;
+
 }
+
+
+  
+
 .image{
   width: 100%;
 }

@@ -167,7 +167,7 @@ a {
 
 body header .burger div {
   transition: all 0.2s ease-in-out;
-  background-color: #d8e1ed;
+  background-color: #CC1CBC;
 }
 body header .burger:active div {
   transition: all 0.2s ease-in-out;
@@ -205,7 +205,7 @@ body header.partie1  .nav a, body header.video-1 .nav a {
   color:#CC1CBC ;
 }
 body header.partie2  .nav a, body header .nav a {
-  color:white ;
+  color:#000000 ;
 }
 
 
@@ -228,19 +228,19 @@ body header.fourth .nav a {
   color: black;
 }
 body header.fifth .nav .burger div {
-  background-color: #3e0e2d;
+  background-color: #CC1CBC;
 }
 body header.fifth .nav a {
   color: #3e0e2d;
 }
 body header.sixth .nav .burger div {
-  background-color: #393939;
+  background-color: #CC1CBC;
 }
 body header.sixth .nav a {
   color: #393939;
 }
 body header.seventh .nav .burger div {
-  background-color: black;
+  background-color: #CC1CBC;
 }
 body header.seventh .nav a {
   color: black;
@@ -284,31 +284,31 @@ body header.fourth a:active, body header.seventh a:active {
   }
 }
 body.part-1 header .burger div {
-  background-color: #d8e1ed;
+  background-color: #CC1CBC;
 }
 body.part-1 header a {
   color: #000000;
 }
 body.part-2 header .burger div {
-  background-color: #c7f1f6;
+  background-color: #CC1CBC;
 }
 body.part-2 header a {
   color: #000000;
 }
 body.part-3 header .burger div {
-  background-color: #c7f1f6;
+  background-color: #CC1CBC;
 }
 body.part-3 header a {
   color: #000000;
 }
 body.part-4 header .burger div {
-  background-color: #4ba4b8;
+  background-color: #CC1CBC;
 }
 body.part-4 header a {
   color: #000000;
 }
 body .nav .nav-container.mobile a {
-  color: #000000;
+  color: #ffff;
 }
 @media (max-width: 1024px) {
   body.nav-active header .icon-Logo:before {
