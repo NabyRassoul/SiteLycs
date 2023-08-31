@@ -1067,12 +1067,25 @@ footer .textHeadeFooter{
 
 }
 footer{
-  background-color: #000000;
+  background-color: #fff !important;
+  
 
 }
-
-
+.sp{
+  font-weight: bold;
+}
+.copy{
+  font-family: sans-serif;
+  font-style: italic;
+}
+.reseauxSociaux> a {
+font-size: 25px;
+} 
+hr{
+  color: #fff;
   
+  
+}
 
 .image{
   width: 100%;
