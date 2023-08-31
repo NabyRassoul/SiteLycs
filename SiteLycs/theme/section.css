@@ -461,8 +461,6 @@ section#third {
   display: flex;
   flex-direction: row;
   height: 100vh;
-  
- 
 }
 section#third > .inner {
   position: absolute;
@@ -477,14 +475,11 @@ section#third > .inner h1 {
   line-height: 64px;
   position: relative;
   text-align: center;
-  
-  
 }
 @media (min-width: 640px) {
   section#third > .inner h1 {
     font-size: 80px;
     line-height: 100px;
-    
   }
 }
 @media (min-width: 1024px) {
@@ -554,9 +549,6 @@ section#third .inner .viewport {
 }
 section#third .inner h1 {
   margin: 0;
-  color: #3e0e2d;
- 
-  
 }
 section#third .inner .tags {
   text-align: left;
@@ -570,7 +562,7 @@ section#third .inner .tags span.tag {
   text-align: center;
   border-radius: 300px;
   border: 1px solid #1a3e15;
-  color: #1a3e15;
+  color: #3e0e2d;
   font-family: "Inter";
   text-transform: uppercase;
   line-height: 1;
@@ -588,9 +580,9 @@ section#third .inner .tags span.tag {
   }
 }
 section#third .inner p {
-  padding-left: 100px;
+  padding-left: 10px;
   white-space: initial;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 22px;
 }
 @media (min-width: 414px) {
@@ -601,8 +593,8 @@ section#third .inner p {
 }
 @media (min-width: 768px) {
   section#third .inner p {
-    padding-left: 200px;
-    font-size: 18px;
+    padding-left: 20px;
+    font-size: 16px;
     line-height: 26px;
   }
 }
@@ -616,12 +608,15 @@ section#third .inner.even .viewport {
 }
 section#third .inner.even h1 {
   margin-top: 20px;
+  color:#3e0e2d;
+
 }
 section#third .inner.odd {
   flex-direction: column-reverse;
 }
 section#third .inner.odd h1 {
   margin-bottom: 20px;
+  color:#3e0e2d;
 }
 section#third .swiper-slide-active .inner {
   opacity: 1;
@@ -636,7 +631,7 @@ section#third .swiper-slide-active .inner .viewport {
   left: 0;
   right: 0;
   bottom: 0;
-}  */
+} */
 section#third .deco:before {
   font-size: 40vh;
   line-height: 100vh;
@@ -646,6 +641,7 @@ section#third .deco:before {
     font-size: 50vh;
   }
 }
+
 
 section#fourth {
   z-index: 4;

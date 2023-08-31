@@ -137,7 +137,7 @@ label.switch {
  
 }
 .about-slide{
-  background-image: url('./img/backg1.png');
+  background-image: url('./img/back2.png');
 
 }
 .textSlide{
@@ -336,7 +336,7 @@ body.legal header .nav a, body.legal-active header .nav a, body.confidentiality-
   background-image: url('./img/backg2.png');
 }
 .slasImg {
-  width: 200px;
+  width: 170px;
   padding-left: 40px;
   padding-bottom: -200px;
 }
