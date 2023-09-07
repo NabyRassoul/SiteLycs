@@ -201,9 +201,7 @@ section#second .viewport {
  
   margin: auto;
 }
- .viewport {
-  /* width: 1250px !important; */
-} 
+
 section#first h5{
   color: white;
   font-size: 14px;

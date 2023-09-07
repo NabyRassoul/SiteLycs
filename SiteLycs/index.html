@@ -99,10 +99,10 @@
   <body class="front">
     <header>
       <div class="nav mobile navbar">
-        <div class="">
+        <div class="imgLogo">
           <img src="./theme/img/logoLycs.png" alt="logo" class="logo" />
         </div>
-        <div class="burger ">
+        <div class="burger" >
           <div></div>
           <div></div>
           <div></div>
@@ -241,7 +241,7 @@
                       <img
                         src="./theme/img/LYCSLOGO.png"
                         alt="logo"
-                        class="LOG mt-4"
+                        class="LOG mt-4 desktop"
                       />
                     </div>
                   </div>
@@ -253,7 +253,7 @@
                         alt="accuil"
                       />
                     </div>
-                    <div class="desktop ">
+                    <div class="desktop  ">
                       <img
                         class="image "
                         src="./theme/img/lycs1.png"
@@ -264,9 +264,9 @@
                 </div>
               </section>
               <section id="partie2">
-                <div class="row">
+                <!-- <div class="row">
                   <img class="image" src="./theme/img/lycs01.png" alt="barre" />
-                </div>
+                </div> -->
                 <!--pARTIE II QUI SOMMES-NOUS-->
                 <div class="conatiner-fluid"> 
                 <div class="row " id="partie">
@@ -550,7 +550,7 @@
                 <div class="inner  odd">
                   <div class="viewport ">
                     <h1 class="">
-                        NOTRE PROPOSITION<br />DE VALEUR
+                        NOTRE PROPOSITION DE VALEUR
 
                       <div class="tags">
                         <span class="tag">Expertise Relation & Experience Client</span>
@@ -570,7 +570,7 @@
                 <div class="inner odd">
                   <div class="viewport">
                     <h1 class="">
-                      EXPERTISE RELATION &<br />EXPERIENCE CLIENT
+                      EXPERTISE RELATION & EXPERIENCE CLIENT
 
                       <div class="tags">
                         <span class="tag">Marketing automation</span>
@@ -590,7 +590,7 @@
                 <div class="inner even">
                   <div class="viewport">
                     <h1 class="">
-                      CONSEIL & <br />STRATEGIE DE<br />TRANSFORMATION
+                      CONSEIL & STRATEGIE DE TRANSFORMATION
                       <div class="tags">
                         <span class="tag">Core Cloud</span>
                         <span class="tag">Pricing</span>
@@ -610,7 +610,7 @@
                 <div class="inner even">
                   <div class="viewport">
                     <h1 class="">
-                      STRONG TECHNICAL FOUNDATION<br />CONSULTING
+                      STRONG TECHNICAL FOUNDATION CONSULTING
 
                       <div class="tags">
                         <span class="tag">Back & Front end development</span>
@@ -980,9 +980,9 @@
           </div>
           
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <img class="image" src="./theme/img/lycs01.png" alt="barre" />
-        </div>
+        </div> -->
       </section>
 
       <footer class="footer bg-dark ">
@@ -1042,6 +1042,13 @@
         </div>
       </footer>
     </div>
+<!--Hide_logo-->
+
+<script>
+  $(document).ready(function() {
+    new WOW().init()
+  })
+</script>
 
     <script>
       window.onload = function () {
